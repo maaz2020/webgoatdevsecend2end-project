@@ -17,7 +17,7 @@ pipeline {
   stages {
     stage('Clone WebGoat') {
       steps {
-        git url: 'https://github.com/WebGoat/WebGoat.git'
+        git url: 'https://github.com/WebGoat/WebGoat.git', branch: 'main'
       }
     }
 
